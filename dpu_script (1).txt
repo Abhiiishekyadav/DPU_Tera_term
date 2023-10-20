@@ -161,4 +161,5 @@ timetotal = time2 - time1
 fps = float(runTotal / timetotal)
 print (divider)
 print("Throughput=%.2f fps, total frames = %.0f, time=%.4f seconds" %(fps, runTotal, timetotal))
-                                                                                                                                                                         
+//////////////////////////////////////////////////////////////////////////////////
+!vai_c_tensorflow2      --model ./similar_0.h5      --arch /opt/vitis_ai/compiler/arch/DPUCZDX8G/ZCU104/arch.json      --output_dir .      --net_name similar_cmpld_0
